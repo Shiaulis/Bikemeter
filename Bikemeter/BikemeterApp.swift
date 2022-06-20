@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct BikemeterApp: App {
+
+    private let controller: RootController = .init()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
